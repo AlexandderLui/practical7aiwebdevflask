@@ -1,6 +1,6 @@
 from flask import Flask,jsonify
 from mysql.connector import pooling
-from config.Settings import Settings
+# from config.Settings import Settings
 
 import os
 app = Flask(__name__)
